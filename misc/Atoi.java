@@ -9,6 +9,7 @@ public class Atoi {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the string to be converted to integer");
 		String stringInput = scanner.nextLine();
+		scanner.close();
 		int integerResult = convertToInteger(stringInput);
 		System.out.println("Converted to integer");
 		System.out.println(integerResult);
